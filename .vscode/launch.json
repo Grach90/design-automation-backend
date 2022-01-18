@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Program",
+      "program": "${workspaceFolder}/start.js",
+      "env": {
+        "FORGE_CLIENT_ID": "uSm0dhmIMVnaJziTqcI9IQYvAGpClnTW",
+        "FORGE_CLIENT_SECRET": "1VzAYIHf3qMv5Lmx",
+        "FORGE_CALLBACK_URL": "http://localhost:3000/api/forge/callback/oauth"
+      }
+    },
+    {
+      "name": "Attach",
+      "port": 9229,
+      "request": "attach",
+      "skipFiles": ["<node_internals>/**"],
+      "restart": true,
+      "autoAttachChildProcesses": true,
+      "type": "pwa-node"
+    }
+  ]
+}

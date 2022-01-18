@@ -1,0 +1,36 @@
+{
+  "name": "viewmodel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "debug": "nodemon --inspect start.js"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "/static_models/models_information/",
+      "/static_models/models_callback/"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autodesk.forge.designautomation": "^3.0.3",
+    "body-parser": "^1.19.0",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "forge-apis": "^0.8.6",
+    "form-data": "^4.0.0",
+    "multer": "^1.4.3",
+    "ngrok": "^4.2.2",
+    "node-fetch": "^2.6.5",
+    "node-stream-zip": "^1.15.0",
+    "nodejs-file-downloader": "^4.7.2",
+    "query-string": "^7.1.0",
+    "socket.io": "^4.4.1",
+    "zip-lib": "^0.7.2"
+  }
+}
